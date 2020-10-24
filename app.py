@@ -35,9 +35,5 @@ def index():
 def about():
     return render_template("about.html")
 
-@app.route('/favicon.ico')
-def favicon():
-    return
-
 if __name__ == '__main__':
     app.run(threaded=True, port=5000)
