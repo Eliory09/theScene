@@ -17,7 +17,7 @@ def index():
     resp = requests.get(f'http://www.omdbapi.com/?i=tt3896198&apikey={API_KEY}&s={movie_name}&type=movie')
     resp_json = resp.json()
     if resp_json.get('Search') is None:
-        return render_template("/about.html")
+        return render_template("/index.html")
     results = resp_json['Search']
     ratings = {}
     for movie in results:
