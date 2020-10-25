@@ -567,6 +567,10 @@ footer {
         width: 100%;
     }
 
+    .options {
+        font-size: 0.7em;
+    }
+
     .options li a{
         padding-left: 20px;
     }
