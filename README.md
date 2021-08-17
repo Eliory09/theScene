@@ -28,7 +28,7 @@ The project was built using:
 Server is hosted on [Heroku](https://www.heroku.com) cloud application platform.
 
 ## Usage
-1. Clone Riddlism into your system.
+1. Clone theScene into your system.
 
 ```bash
 git clone https://github.com/Eliory09/theScene.git
